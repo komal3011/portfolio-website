@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+html::-webkit-scrollbar-thumb{
+    background:var(--gray);
+}
+@media screen {
+  body{
+    grid-template-columns: 1fr;
+  }
+}
+body{
+    margin: 0px;
+    background-color: lavenderblush;
+}
+  .name{
+    color: darkgreen;
+    text-decoration:solid;
+  }
+  .nav{
+  nav{
+    background-color: paleturquoise;
+    overflow: hidden;
+  }
+  nav a{
+    display: block;
+    color: hsl(240, 85%, 68%);
+    font-weight: bold;
+    text-decoration:solid;
+    padding: 18px 24px;
+    float: left;
+  }
+  nav a:hover{
+     color: hsl(341, 79%, 54%);
+     text-decoration: underline;
+  }
+  
+}
+  

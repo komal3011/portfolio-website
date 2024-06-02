@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+    <style>
+        *{
+          box-sizing: border-box;
+        }
+    
+        #flex-item-1{
+            text-align:justify;
+            line-height: 1.8;
+            padding: 4px 100px;
+            display:block;
+            background-color: cadetblue;
+            font-weight: bold;
+            width: 700px;
+            height: 300px;
+            background: cadetblue;
+             transition: width 2s, height 2s, transform 2s;
+        }
+/*Transition + Transform*/
+        #flex-item-1:hover {
+        width: 500px;
+        height: 450px;
+        transform: rotate(360deg);
+        }
+        .flex-container {
+        padding: top 20%;
+        display: grid;
+        align-items:center; 
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+        }
+
+       #flex-item-2 img {
+            /*mix-blend-mode:multiply;  used for removing white or png background of img*/    
+        width: 500px;
+        height: 400px;
+        }
+        #flex-item-2, h2{
+            animation: fadeIn 5s; /*This assigns an animation called fadeIn to our div. This doesn’t do anything yet because we still need to create the effect using keyframes.*/
+        }
+        @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+        }
+        
+        h2,flex-item-1{
+           margin: 3%;
+        }
+       .container{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          justify-content: center;
+          align-items:baseline;
+          text-align:center;
+          grid-gap: 1rem;
+          padding: 1rem, 80px;
+          font-size: 1.2rem;
+       }
+       .flex-item{
+          width: 90px;
+          height: 90px;
+          position: relative;
+          border-radius: 45px;
+          background-color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+
+       }
+
+       .skill-box{
+        padding: 1 rem;
+        /* cursor: pointer; */
+       }
+
+       .skill-title{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding: 0.5rem;
+         margin-bottom: 0.5rem;
+       }
+
+       
+.skill-icon{
+    width: 50px;
+}
+.skill{
+  padding-top: 10%;
+}
+.skill2{
+    padding-top: 10%;
+}
+.list{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill3{
+    padding-top: 3%;
+}
+
+    </style>
+</head>
+<body class="nav">
+    <nav>
+        <a href="portfolio.html">Home</a>
+        <a href="portfolio2.html">About</a>
+        <a href="portfolio3.html">Contact</a>
+        <a href="portfolio4.html">Projects</a>
+    </nav>
+
+     <h2>Hi!</h2>
+
+    <div class="flex-container">
+        <div id="flex-item-1">
+    <p>I'm Komal and I'm B.Tech Civil-2023 graduate. I completed my B.Tech from Sanjivani College of Engineering Kopargaon.
+     Dist- Ahmednagar, Maharashtra. During these four years of college technology has impacted on my life a lot. Whether it is online learning from you tube,
+     free online educational stuff, or reading online articles everything is available at our finger tip. Hence get inspired by it I decided
+     to learn and make something meaningful which will help people and make a positive, long-lasting impact on their lives.    </p>
+</div>
+
+     <div id="flex-item-2">
+     <img src="C:/Users/Lenovo/Desktop/vs code/img/my Image.png" alt="image">
+    </div>
+
+    </div>
+
+    <h2 class="skill">Technical skills</h2>
+    <div class="container">
+    <div class="skill-box">
+    <div class="skill-title">
+    <div class="flex-item">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/html-5.png" class="skill-icon" alt="image">
+    </div>
+    <h3>HTML 5</h3>
+    </div>  
+    <p>
+    elements, tags, attributes- boolean, ID, class, html entities, lists, hyperlinks, table,
+    web form
+    </p>
+    </div>
+
+
+    <div class="skill-box">
+        <div class="skill-title">
+        <div class="flex-item">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/css.png" class="skill-icon" alt="image">
+        </div>
+        <h3>CSS</h3>
+        </div>
+        <p>
+        CSS- inline, internal, external. Selectors, properties, formatting text, shorthand property,
+        document object model (DOM), units in CSS, box model, cascading inheritance specificity,
+        controlling overflow, form styling. debugging in CSS, responsive web design- media queries, 
+        floats and position properties- page layout, basic document flow. Flexbox, CSS grid, animations 
+        in CSS 
+        </p>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-title">
+        <div class="flex-item">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/javascript.png" class="skill-icon" alt="image">
+        </div>
+        <h3>Javascript</h3>
+        </div>
+        <p>
+        primitive datatypes, objects, functions, methods, loops, type conversion, arrays, oops
+        </p>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-title">
+        <div class="flex-item">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/java.png" width="46px" class="skill-icon" alt="image">
+        </div>
+        <h3>Java SE 8</h3>
+        </div>
+        <p>
+         Methods, Functions, Constructors, Collection frameworks, Exception handling, Recursion, Backtracking, Dynamic programming, 
+         Sorting and Searching algorithms, Bit manipulation, Time and space complexities, File handling.
+        </p>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-title">
+        <div class="flex-item">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/oracle.png" class="skill-icon" alt="image">
+        </div>
+        <h3>Oracle SQL</h3>
+        </div>
+        <p>
+        objects, datatypes, DDL, DML, DQL, DCL, TCL, operators, alias, constrains, functions, clause, view, joins
+        </p>
+    </div>
+
+    <div class="skill-box">
+        <div class="skill-title">
+            <div class="flex-item">
+            <img src="C:/Users/Lenovo/Desktop/vs code/img/sap.png" class="skill-icon" alt="image">
+            </div>
+            <h3>SAP ABAP</h3>
+            </div>
+            <p>
+            RICEF objects, ABAP, ABAP Data Dictionary, SMARTFORMS, Reports- ALV/ Classical/ Interactive, OOPS, Views, Function code, Function modules, Primary key, foreign key, Internal tables, Structure- Include/ Append, BDC
+            </p>
+     </div>
+
+     <div class="skill-box">
+        <h3>data structures and algorithms</h3>
+     </div>
+
+     <div class="skill-box">
+        <h3>object oriented programming system</h3>
+     </div>
+
+     <div class="skill-box">
+        <h3>problem solving</h3>
+     </div>
+         
+     <div class="skill-box">
+        <h3>analytical skills</h3>
+     </div>
+
+     <div class="skill-box">
+        <h3>ms office</h3>
+     </div>
+</div>
+
+    <h2 class="skill2">Interpersonal skills</h2>
+    <ul class="list">
+        <li>Verbal and written communication skills</li>
+        <li>Teamwork</li>
+        <li>Resilience</li>
+        <li>Flexibility</li>
+    </ul>
+
+    <h2 class="skill3">Languages</h2>
+    <ul class="list">
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Marathi</li>
+    </ul>
+
+    <h2 class="skill3">Interests</h2>
+    <ul class="list">
+        <li>Coding</li>
+        <li>Reading self improvement articles</li>
+        <li>Learning new tech stack</li>
+    </ul>
+</body>
+</html>

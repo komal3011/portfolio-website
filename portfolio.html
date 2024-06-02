@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio responsive website</title>
+    <link rel="stylesheet" href="style_portfolio.css">
+    <style>
+    .developer img{
+    margin-left: 1%;
+    width: 600px;
+    height: 1000px;
+    padding-right: 10%;
+    padding-bottom: 100%;
+    }
+        button{
+            background-color:darkorange;
+            color: white;
+            font-weight: bold;
+            padding: 12px 20px;
+            margin-left: 8%;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:mediumspringgreen;
+        }
+        h3,p{
+            font-size: large;
+            font-weight: bold;
+            margin: 3%;
+            text-align: justify;
+        }
+        .flex-container {
+        display: grid;
+        align-items:center; 
+        grid-template-columns: 2fr 1fr;
+        column-gap: 5px;
+        }
+        .paragraph{
+            padding-bottom: 100%;
+        }
+        .pr{
+           font-size: 25px;
+           color: #f7e457;
+        }
+        .name{
+            font-size: 2rem;
+            text-shadow:transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="nav">
+    <!--home page-->
+<nav>
+    <a href="portfolio.html">Home</a>
+    <a href="portfolio2.html">About</a>
+    <a href="portfolio3.html">Contact</a>
+    <a href="portfolio4.html">Projects</a>
+</nav>
+    <div class="flex-container">
+        <div class="paragraph">
+        <h3 class="name">Komal Bhagure</h3>
+        <p>Hello! Welcome to my portfolio. <br> I'm Komal Bhagure a proficient computer programmer usually code in Java SE 8.
+         My technical skills are Oracle SQL, HTML, CSS, Javascript.
+        Apart from this I'm an attentive listener having strong communication skills.
+        I carry never give up attitude, I'm a life long learner, introspective and always ready to pick up new tools and learn new technologies.
+        I look forward to grow in the field of software development</p>
+            <h3 class="pr">Click on below option to view my resume.</h3>
+            <button onclick="location.href='C:/Users/Lenovo/Desktop/vs code/img/Komal Resume.pdf';">View Resume</button>
+            <h3 class="pr">cover letter</h3>
+            <button onclick="location.href='C:/Users/Lenovo/Desktop/vs code/img/komal cover letter.txt';">View cover letter</button>
+        </div>
+    <div class="developer">
+        <img src="C:/Users/Lenovo/Desktop/vs code/img/hr.jpg" alt="">
+    </div>
+</div>
+</body>
+</html>
