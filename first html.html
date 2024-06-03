@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><i>Welcome to my first html file. &lt;h1&gt;</i></h1> <!--largest heading-->
+    <hr> <!--horizontal line-->
+    <p><b> <small>Hello viewers. I'm Komal. <br>I'm a Java SE 8 programmer having command over oops, data structures and algorithms and stream API's.</small></b></p> <!--paragraph-->
+    <hr>
+<p>100 <sup>3</sup> and 10 <sub>2</sub></p>
+    <h2>Shopping List</h2> <!--second largest heading-->
+    <ol> <!--Ordered List-->
+        <li>grocery shopping</li> <!--list-->
+        <li>clothes shopping
+            <ol> <!--Nested List : Ordered List (if not write then nested list won't form)-->
+                <li>baby clothes</li> <!--list-->
+                <li>school uniforms</li>
+                <li>sarees</li>
+            </ol>
+        </li>
+        <li>bread and milk</li>
+        <li>vegies</li>
+        <li>sweets</li>
+    </ol>
+    <hr>
+    <h2>Cake Recipe</h2> <!--heading-->
+    <ul> <!--Unordered List-->
+        <li>purchase cake baking set</li>
+        <li>buy premix, whipped cream, toppers, sprinkles</li>
+        <li>mix premix, sugar, butter together
+            <ul> <!--Nested List : Unordered-->
+                <li>if you want mix baking powder</li>
+                <li>add eggs</li>
+            </ul>
+        </li>
+        <li>put pan in an oven</li>
+        <li>take bake cake out of oven</li>
+        <li>decorate cake with decorating items and whipped cream</li>
+    </ul>
+    <a href="https://www.google.com" Privacy and Security>Google</a> <!--HyperLink, it'll open google in same tab-->
+    <br><a href="https://www.google.com" target="_blank">Google</a> <!--it'll open link in new tab-->
+    <!--to link our webpages present in same folder using relative path-->
+    <a href="page.html">page</a>
+    <!--we can add link of resume, videos, google drive, any file, photos, pdf-->
+    <a href="file:///C:/Users/Lenovo/Downloads/Komal's%20Resume.pdf" target="_blank" rel="noopener noreferrer"><h2>Resume</h2></a> <!--absolute path-->
+    <!--Relative path-->
+    <a href = "C:/Users/Lenovo/Downloads/Komal's Resume.pdf" target="_blank"> Resume PDF </a>
+    <a href="C:/Users/Lenovo/Desktop/Documents/cover letter & other doc/cover letter.txt" target="_blank">Cover Letter</a>
+    <hr>
+    <img src="C:/Users/Lenovo/Desktop/vs code/img/ty.jpg" alt="This is an image"> <!--image element-->
+    <hr>
+    <video src="C:/Users/Lenovo/Desktop/vs code/img/song.mp4" width="400" controls loop muted poster="C:/Users/Lenovo/Desktop/vs code/img/ty.jpg"></video> <!--video element-->
+    <iframe width= "500" height="300" src="https://www.youtube.com/embed/-mJFZp84TIY?si=UBWEUsuDv_6OH9x8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0"></iframe> <!--iframe element: you tube video-->
+    <iframe src="https://www.javatpoint.com" widtth="750" height="360" frameborder="0"></iframe>  <!--iframe: website attach-->
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>subject</th>
+                <th>theory</th>
+                <th>practical</th>
+                <th>total marks</th>
+                <th>grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>math</td> <!--first sub-->
+                <td>75</td>
+                <td>60</td>
+                <td>135</td>
+                <td>A</td>
+            </tr>
+            <tr> <!--second sub-->
+                <td>physics</td>
+                <td>85</td>
+                <td>70</td>
+                <td>155</td>
+                <td>A+</td>
+            </tr>
+            <tr> <!--third sub-->
+                <td>chemistry</td>
+                <td>85</td>
+                <td>80</td>
+                <td>165</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result:Pass</th>
+        </tfoot>
+    </table>
+</body>
+</html>

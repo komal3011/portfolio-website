@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: 20px;
+            padding: 0 20px 30px 0;
+            line-height: 1.4;
+        }
+        .flex-container {
+            display:inline-block;
+            width: 100%;
+            height: 500px;
+            border: 5px solid #2b21dd;
+            flex-wrap:nowrap;
+            flex-direction:row;
+            align-content: center;
+            flex-flow:row;
+        } 
+        .flex-item{
+            width: 150px;
+            height: 200px;
+            background-color: lightblue;
+            border: 2px solid darkblue;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+            font-weight: bold;
+            line-height: 1.4; 
+            padding-top: 5%;
+        }
+        #flex-item-1{
+            background-color: lightpink;
+            /*flex-basis: 200px;*/
+            flex-grow: -1; /*relatively grow i.e. if screen size increases then this box grow more faster as compare to others*/
+        }
+        #flex-item-2{
+            background-color: lightcoral;
+            flex-shrink: 2; /*relatively shrink i.e. if screen size reduces then this box shrink more faster as compare to others*/
+        }
+        #flex-item-3{
+            background-color: lightgray;
+            align-self: center;
+            /*order: 5;*/
+        }
+        #flex-item-4{
+            background-color: lightyellow;
+        }
+        #flex-item-5{
+            background-color: palevioletred;
+        }
+        #flex-item-6{
+            background-color: rgb(240, 11, 11);
+        }
+        #flex-item-7{
+            background-color: #12f6f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, alias.</p></div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+        <div class="flex-item" id="flex-item-6">6</div>
+        <div class="flex-item" id="flex-item-7">7</div>
+    </div>
+</body>
+</html>

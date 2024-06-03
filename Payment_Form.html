@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style_Payment.css">
+    </head>
+
+<body>
+    <div class="container">
+    <form action=""> <!--currently no server available hence-->
+     <h1 class="main">Payment Form</h1>
+     <p>Mandatory fields are mark as *</p>
+     <h2>Contact Information</h2>
+     <p>Name:*<input type="text" placeholder="" name="name" required></p> <!--placeholder to autom. show data similar to enter-->
+     <fieldset> <!--border-->
+        <legend>Gender*</legend>
+     <p>Male: <input type="radio" name="Gender" id="male" required>
+        Female: <input type="radio" name="Gender" id="female" required>
+     </p>
+    </fieldset>
+    <p>Address:* <textarea placeholder="enter your address" name="address" id="address" cols="30" rows="10"></textarea></p>
+    <p>Email:* <input type="email" name="email" id="email" required></p> <!--it'll suggest emails dropup list and automatically tell whether email correct or not-->
+    <p>Pincode:* <input type="number" placeholder="" name="pincode" id="pincode" required></p>
+    <h2>Payment Details</h2>
+     <p>Card Type:*
+        <select name="card_type" id="card_type" required>
+            <option value="">--Select a Card Type--</option> <!--value empty bcz if user don't select anything then though value will be passed into server-->
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="visa">Visa</option>
+        </select>
+     </p>
+     <P>Card Number:*
+        <input type="number" name="card_number" placeholder="" id="card_number" required>
+     </P>
+     <p>Expiration Date:* <input type="date" placeholder="" name="exp_date" id="exp_date"> <!--it automatically displays calender-->
+     </p>
+     <p>CVV:* <input type="password" placeholder="" name="CVV" id="CVV" required></p> <!--Takes password in hidden form-->
+     <input type="submit" value="Pay Now"> <!--form submit. Instead of pay now we can write submit-->
+    </form>
+</div>
+</body>
+</html>

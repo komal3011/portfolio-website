@@ -1,0 +1,54 @@
+ p{ 
+    color: darkorchid;
+}
+
+.special{
+    color: yellow;
+    font-weight: bold;
+}
+span.special, li.special{
+    color: aqua;
+}
+li em{
+    color: blue;
+}
+p+p{
+    font-size: 200%;
+}
+a:hover{
+    color: teal;
+    text-decoration: none;
+}
+body p+ul{
+    color: gold;
+    background-color: yellowgreen;
+    padding: 5px;
+}
+#heading{
+    color: grey;
+    background-color: fuchsia;
+}
+p#one{
+    color: maroon;
+}
+li[class]{
+    font-size: 300%;
+}
+li[class="a"]{
+    color: darkcyan;
+}
+body{
+    font-size: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+
+nav a{
+    background-color: black;
+    overflow: hidden;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));  /*repeat(4, 1fr); /*1fr 1fr 1fr;  200px 200px 200px;*/
+            grid-gap: 10px;
+            grid-auto-rows: minmax(50px, auto);   /*50px;*/
+            grid-auto-columns: minmax(25px, auto); /*50px;*/
+            column-gap: 30px;
+            row-gap: 30px;
+        }
+        .items{
+            background-color: navy;
+            color: white;
+            border: 3px lavender solid;
+            border-radius: 3px;
+        }
+        #item-1{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #item-1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .items-1{
+            background-color: navy;
+            color: white;
+            display: grid;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!--syn- div.container. It is parent element-->
+        <div class="items-1" id="item-1">
+            <div class="nested-item">nested box 1</div>
+            <div class="nested-item">nested box 2</div>
+            <div class="nested-item">nested box 3</div>
+        </div> <!--div.items (appet){box $}*5-->
+        <div class="items" id="item-2">box 2</div>
+        <div class="items">box 3</div>
+        <div class="items">box 4</div>
+        <div class="items">box 5</div>
+    </div>
+</body>
+</html>

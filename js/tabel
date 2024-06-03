@@ -1,0 +1,5 @@
+let a = 2;
+for (let index = 1; index <= 10; index++) {
+    const element = 2*index;
+    console.log(element);
+}
