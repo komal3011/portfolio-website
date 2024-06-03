@@ -1,4 +1,4 @@
-Hello ,
+Hello,
 
    I'm Komal Bhagure, a B.Tech Civil-2023 graduate and a determined Java SE 8 programmer with diverse coding skills. I can write scalable, well optimized Java programs followed by best coding practices. 
          I'm proficient in oops concepts, Java SE 8 enhancements as well as data structures and algorithms. I have done projects like ATM Interface, Train ticket reservation and travel agency in which
