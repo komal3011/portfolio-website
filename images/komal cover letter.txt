@@ -1,0 +1,16 @@
+Hello ,
+
+   I'm Komal Bhagure, a B.Tech Civil-2023 graduate and a determined Java SE 8 programmer with diverse coding skills. I can write scalable, well optimized Java programs followed by best coding practices. 
+         I'm proficient in oops concepts, Java SE 8 enhancements as well as data structures and algorithms. I have done projects like ATM Interface, Train ticket reservation and travel agency in which
+I've used oops, inner class, exception handling, data structures like 2d LinkedList, HashMap, HashSet. I've strong knowledge of data structures and know when to use which data structure based on their time complexities.
+
+ I'm also skilled in HTML, CSS, Javascript. I've done two projects first Payment form. I've created it using html and css. Form accepts users general information and bank card details.
+Second Professional portfolio which demonstrates my skills, projects. I've used navigation bar, flexbox, grid, animations.
+
+Apart from that I can write efficient Oracle SQL queries to fetch data from databases. I'm passionate for technology and want to grow in the field of software development by pushing my boundaries everyday.
+         I'm introspective, having keen eye for detail and always ready to pick up new tools and learn new technologies which makes me a good fit for software developer position! 
+I'm sure that my communication, technical skills and collaboration abilities will surely benefit the company to achieve it's goals.
+Kindly go through my resume and consider my candidature for the same.
+
+Thanks and Regards,
+Komal Bhagure 
